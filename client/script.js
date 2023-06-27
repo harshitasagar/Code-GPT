@@ -88,7 +88,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('D:\Programming\WebDev\Web\code_gpt', {
+    const response = await fetch('https://code-gpt-vc4l.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
